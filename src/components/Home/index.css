@@ -1,0 +1,30 @@
+.home-container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark-home-card {
+  background-color: #000000;
+}
+
+.home-img {
+  height: 140px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-img {
+    height: 80px;
+  }
+}
+
+.home-heading {
+  font-family: 'Roboto';
+  color: #334155;
+}
+
+.dark-home-head {
+  color: #ffffff;
+}

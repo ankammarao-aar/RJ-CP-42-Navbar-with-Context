@@ -1,0 +1,49 @@
+.not-fount-container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark-not-fount-card {
+  background-color: #000000;
+}
+
+.not-found-img {
+  height: 250px;
+}
+
+.not-found-heading {
+  font-family: 'Roboto';
+  font-weight: normal;
+  color: #334155;
+}
+
+.dark-not-head {
+  color: #ffffff;
+}
+
+.not-found-para {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #64748b;
+}
+
+.dark-not-para {
+  color: #dcdcdc;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-img {
+    height: 280px;
+  }
+
+  .not-found-heading {
+    font-size: 26px;
+  }
+
+  .not-found-para {
+    font-size: 12px;
+  }
+}
